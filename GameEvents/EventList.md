@@ -3,14 +3,45 @@
 [List Of Possible Game Events](https://github.com/citizenfx/fivem/blob/5bad342ab5dcb8d2f5d10b8823913e8c71802619/code/components/gta-core-five/include/gta_vtables.h)
 
 
-# CEventNetworkEntityDamage,
-args: 514 (EntityId), 258 (Owner ID?), 1101169152, 0, 133987706, 1086820063, 1086820063, 0, 0, 0, 0
+# CEventNetworkEntityDamage
+|   Type   | Returned Value  |
+|----------|-----------------|
+| integrer | Entity ID       |
+| integrer | 258 (Owner ID?) |
+| integrer | 1101169152      |
+| unknown  | 0               |
+| integrer | 133987706       |
+| integrer | 1086820063      |
+| integrer | 1086820063      |
+| unknown  | 0               |
+| unknown  | 0               |
+| unknown  | 0               |
+| unknown  | 0               |
 
-# CEventNetworkVehicleUndrivable, 
-args: 514 (EntityId), 258, -1569615261
+# CEventNetworkVehicleUndrivable
+|   Type   | Returned Value  |
+|----------|-----------------|
+| integrer | Entity ID       |
+| integrer | 258 (Owner ID?) |
+| integrer | -1569615261     |
 
-# CEventNetworkPlayerCollectedAmbientPickup,
-args: -105925489, 12, 0, 1467525553, 0, 0, 12 (AmmoCount)
+# CEventNetworkPlayerCollectedAmbientPickup
+|   Type   | Returned Value  |
+|----------|-----------------|
+| integrer | Pickup Hash     |
+| integrer | 12              |
+| unknown  | 0               |
+| integrer | 1467525553      |
+| unknown  | 0               |
+| unknown  | 0               |
+| integrer | Ammo Count      |
 
 # CEventNetworkPlayerCollectedPickup
-args: pickupId, playerId, pickupHash, pickupAmount, modelHash, pickupAmount
+|   Type   | Returned Value  |
+|----------|-----------------|
+| integrer | Pickup ID       |
+| integrer | Player ID       |
+| integrer | Pickup Hash     |
+| integrer | Pickup Amount   |
+| integrer | Model Hash      |
+| integrer | Pickup Amount   |
