@@ -5,3 +5,6 @@
 
 # CEventNetworkEntityDamage,
 args: 514 (EntityId), 258, 1101169152, 0, 133987706, 1086820063, 1086820063, 0, 0, 0, 0
+
+# CEventNetworkVehicleUndrivable, 
+args: 514 (EntityId), 258, -1569615261
