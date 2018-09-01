@@ -8,5 +8,6 @@ args: 514 (EntityId), 258, 1101169152, 0, 133987706, 1086820063, 1086820063, 0, 
 
 # CEventNetworkVehicleUndrivable, 
 args: 514 (EntityId), 258, -1569615261
+
 # CEventNetworkPlayerCollectedAmbientPickup,
-args: -105925489, 12, 0, 1467525553, 0, 0, 12
+args: -105925489, 12, 0, 1467525553, 0, 0, 12 (AmmoCount)
