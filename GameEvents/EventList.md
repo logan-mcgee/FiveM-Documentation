@@ -1,4 +1,4 @@
-#  - Here will be a list of events, and their arguments as they are discovered
+# Here will be a list of events, and their arguments as they are discovered
 
 [List Of Possible Game Events](https://github.com/citizenfx/fivem/blob/5bad342ab5dcb8d2f5d10b8823913e8c71802619/code/components/gta-core-five/include/gta_vtables.h)
 
