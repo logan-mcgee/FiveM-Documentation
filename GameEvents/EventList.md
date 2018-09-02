@@ -4,22 +4,34 @@
 
 
 ### [16] - CEventCrimeReported
-Not known if arguments exist
+|   Type   | Returned Value  |
+|----------|-----------------|
+|Arguments |     unknown     |
 
 ### [139] - CEventEntityDamaged
-Not known if arguments exist
+|   Type   | Returned Value  |
+|----------|-----------------|
+|Arguments |     unknown     |
 
 ### [140] - CEventEntityDestroyed
-Not known if arguments exist
+|   Type   | Returned Value  |
+|----------|-----------------|
+|Arguments |     unknown     |
 
 ### [143] - CEventPlayerUnableToEnterVehicle
-Not known if arguments exist
+|   Type   | Returned Value  |
+|----------|-----------------|
+|Arguments |     unknown     |
 
 ### [145] - CEventStatChangedValue
-Not known if arguments exist
+|   Type   | Returned Value  |
+|----------|-----------------|
+|Arguments |     unknown     |
 
 ### [147] - CEventPedSeenDeadPed
-Not known if arguments exist
+|   Type   | Returned Value  |
+|----------|-----------------|
+|Arguments |     unknown     |
 
 ### [151] - CEventNetworkPlayerJoinScript
 |   Type   | Returned Value  |
@@ -404,14 +416,22 @@ No Arguments
 |Arguments |     unknown     |
 
 ### [236] - CEventErrorUnknownError
-Not known if arguments exist
+|   Type   | Returned Value  |
+|----------|-----------------|
+|Arguments |     unknown     |
 
 ### [237] - CEventErrorArrayOverflow
-Not known if arguments exist
+|   Type   | Returned Value  |
+|----------|-----------------|
+|Arguments |     unknown     |
 
 ### [238] - CEventErrorInstructionLimit
-Not known if arguments exist
+|   Type   | Returned Value  |
+|----------|-----------------|
+|Arguments |     unknown     |
 
 ### [239] - CEventErrorStackOverflow
-Not known if arguments exist
+|   Type   | Returned Value  |
+|----------|-----------------|
+|Arguments |     unknown     |
 
