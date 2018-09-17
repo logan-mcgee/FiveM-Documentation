@@ -4,7 +4,7 @@
 
 
 # CEventNetworkEntityDamage,
-args: 514 (EntityId), 258 (Owner ID?), 1101169152, 0, 133987706, 1086820063, 1086820063, 0, 0, 0, 0
+args: 514 (EntityId), 258 (Owner ID?), 1101169152, 0 (entity died? - is 1 when killing self or peds), 133987706, 1086820063, 1086820063 (is 0 when OwnerId is -1), 0, 0, 0, 0 (
 
 # CEventNetworkVehicleUndrivable, 
 args: 514 (EntityId), 258 (Owner ID?), -1569615261
