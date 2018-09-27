@@ -78,23 +78,23 @@ No Arguments
 ### [162] - CEventNetworkPlayerCollectedPickup
 |   Type   | Returned Value  |
 |----------|-----------------|
-| integrer | Pickup ID       |
-| integrer | Player ID       |
-| integrer | Pickup Hash     |
-| integrer | Pickup Amount   |
-| integrer | Model Hash      |
-| integrer | Pickup Amount   |
+| integer | Pickup ID       |
+| integer | Player ID       |
+| integer | Pickup Hash     |
+| integer | Pickup Amount   |
+| integer | Model Hash      |
+| integer | Pickup Amount   |
 
 ### [163] - CEventNetworkPlayerCollectedAmbientPickup
 |   Type   | Returned Value  |
 |----------|-----------------|
-| integrer | Pickup Hash     |
-| integrer | 12              |
+| integer | Pickup Hash     |
+| integer | 12              |
 | unknown  | 0               |
-| integrer | 1467525553      |
+| integer | 1467525553      |
 | unknown  | 0               |
 | unknown  | 0               |
-| integrer | Ammo Count      |
+| integer | Ammo Count      |
 
 ### [164] - CEventNetworkPlayerCollectedPortablePickup
 |   Type   | Returned Value  |
@@ -171,17 +171,17 @@ No Arguments
 ### [182] - CEventNetworkEntityDamage
 |   Type   | Returned Value  |
 |----------|-----------------|
-| integrer | Entity ID       |
-| integrer | 258 (Owner ID?) |
-| integrer | 1101169152      |
-| unknown  | 0               |
-| integrer | 133987706       |
-| integrer | 1086820063      |
-| integrer | 1086820063      |
-| unknown  | 0               |
-| unknown  | 0               |
+| integer  | Entity ID       |
+| integer  | 258 (Owner ID?) |
+| integer  | 1101169152      |
+| boolean  | Damage fatal    |
+| hash     | Weapon used, for example; 133987706 is joaat("WEAPON_RAMMED_BY_CAR")) |
+| integer  | 1086820063      |
+| integer  | 1086820063      |
 | unknown  | 0               |
 | unknown  | 0               |
+| unknown  | 0               |
+| integer  | Unknown, but 0 for peds, 116 for the body of a vehicle, 93 for a tire, 120 for a side window, 121 for a rear window, 122 for a windscreen, etc |
 
 ### [183] - CEventNetworkPlayerArrest
 |   Type   | Returned Value  |
@@ -339,9 +339,9 @@ No Arguments
 ### [216] - CEventNetworkVehicleUndrivable
 |   Type   | Returned Value  |
 |----------|-----------------|
-| integrer | Entity ID       |
-| integrer | 258 (Owner ID?) |
-| integrer | -1569615261     |
+| integer | Entity ID       |
+| integer | 258 (Owner ID?) |
+| hash    | Last weapon damage was received from. For example joaat("WEAPON_RAMMED_BY_CAR") for slamming into a wall |
 
 ### [217] - CEventNetworkPresenceTriggerEvent
 |   Type   | Returned Value  |
