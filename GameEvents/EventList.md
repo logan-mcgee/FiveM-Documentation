@@ -171,16 +171,16 @@ No Arguments
 ### [182] - CEventNetworkEntityDamage
 |   Type   | Returned Value  |
 |----------|-----------------|
-| integer  | Entity ID       |
-| integer  | 258 (Owner ID?) |
+| integer  | Victim (Entity ID)       |
+| integer  | Attacker (Entity ID) |
 | integer  | 1101169152      |
 | boolean  | Damage fatal    |
-| hash     | Weapon used, for example; 133987706 is joaat("WEAPON_RAMMED_BY_CAR")) |
+| hash     | WeaponInfoHash, for example; 133987706 is joaat("WEAPON_RAMMED_BY_CAR")) - ref: common.rpf/data/ai/weapons.meta->Item type="CWeaponInfo" |
 | integer  | 1086820063      |
 | integer  | 1086820063      |
 | unknown  | 0               |
 | unknown  | 0               |
-| unknown  | 0               |
+| boolean  | Is Melee damage    |
 | integer  | Unknown, but 0 for peds, 116 for the body of a vehicle, 93 for a tire, 120 for a side window, 121 for a rear window, 122 for a windscreen, etc |
 
 ### [183] - CEventNetworkPlayerArrest
